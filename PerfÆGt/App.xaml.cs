@@ -12,6 +12,7 @@ using System.Windows.Navigation;
 using System.Windows.Shapes;
 using Microsoft.Phone.Controls;
 using Microsoft.Phone.Shell;
+using backend;
 
 namespace PerfÆGt
 {
@@ -22,6 +23,9 @@ namespace PerfÆGt
         /// </summary>
         /// <returns>The root frame of the Phone Application.</returns>
         public PhoneApplicationFrame RootFrame { get; private set; }
+        public Egg EggOne { get; set; }
+        public Egg EggTwo { get; set; }
+        public Egg EggThree { get; set; }
 
         /// <summary>
         /// Constructor for the Application object.

@@ -25,8 +25,9 @@ namespace PerfÆGt
 
         private void softBoiled_Click(object sender, RoutedEventArgs e)
         {
+            //Create Egg & add it to memory
             var egg = new Egg(400, "pretty LOL");
-            Debug.WriteLine(egg.ToString());
+            (App.Current as App).EggOne = egg;
         }
 
         private void smilingBoiled_Click(object sender, RoutedEventArgs e)
